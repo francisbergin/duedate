@@ -34,7 +34,7 @@
 }
 
 .task-overdue {
-    background-color: red;
+    color: red;
 }
 
 .fa-calendar-check-o {

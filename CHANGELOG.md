@@ -1,5 +1,10 @@
 # duedate changelog
 
+## 0.5.0 (2017-07-10)
+### Added
+- Overdue date in red (#1, #2)
+- npm package lockfile
+
 ## 0.4.0 (2016-07-25)
 ### Added
 - Icon in site header.

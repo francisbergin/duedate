@@ -119,7 +119,7 @@
 
                 <div class="list-group">
 
-                    <div class="list-group-item" ng-repeat="task in tasks | filter: isTaskInTasklist(data.selectedTasklist) | orderBy:['-status', 'due']" ng-class="{'task-done': task.status == 'completed', 'task-overdue': isOverdue(task)}">
+                    <div class="list-group-item" ng-repeat="task in tasks | filter: isTaskInTasklist(data.selectedTasklist) | orderBy:['-status', 'due']" ng-class="{'task-done': task.status == 'completed'}">
 
                         <input type="checkbox" ng-model="task.status" ng-true-value="'completed'" ng-false-value="'needsAction'" ng-change="tasksPatchStatus(task)">
 
@@ -131,7 +131,7 @@
                             <span class="glyphicon glyphicon-option-vertical"></span>
                         </button>
 
-                        <span class="task-due-date pull-right" ng-if="task.due"><small title="{{task.due | date:'fullDate':'+0'}}">{{task.due | fromNow}}</small></span>
+                        <span class="task-due-date pull-right" ng-if="task.due" ng-class="{'task-overdue': isOverdue(task)}"><small title="{{task.due | date:'fullDate':'+0'}}">{{task.due | fromNow}}</small></span>
 
                     </div>
 

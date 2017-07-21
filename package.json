@@ -6,6 +6,7 @@
     "url": "https://github.com/fbergin/duedate"
   },
   "devDependencies": {
+    "bower": "^1.8.0",
     "clean-css": "^3.4.18",
     "csslint": "^1.0.1",
     "gh-pages": "^0.11.0",
@@ -17,6 +18,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
+    "postinstall": "bower install",
     "prebuild": "npm run clean && mkdir dist",
     "build": "npm run assets & npm run html & npm run css & npm run js",
     "watch": "npm run watch:assets & npm run watch:html & npm run watch:css & npm run watch:js",

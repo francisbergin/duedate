@@ -1,5 +1,9 @@
 # duedate changelog
 
+## Next release
+### Added
+- Description meta tag in html head
+
 ## 0.5.0 (2017-07-10)
 ### Added
 - Overdue date in red (#1, #2)

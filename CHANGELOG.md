@@ -1,5 +1,9 @@
 # duedate changelog
 
+## 0.5.2 (2017-07-21)
+### Changed
+- Minor things in index HTML file
+
 ## 0.5.1 (2017-07-21)
 ### Added
 - Description meta tag in html head

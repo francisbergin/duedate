@@ -1,6 +1,6 @@
 # duedate changelog
 
-## Next release
+## 0.5.1 (2017-07-21)
 ### Added
 - Description meta tag in html head
 

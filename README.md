@@ -1,7 +1,7 @@
-# duedate [![Build Status](https://travis-ci.org/fbergin/duedate.svg?branch=master)](https://travis-ci.org/fbergin/duedate)
+# duedate [![Build Status](https://travis-ci.org/francisbergin/duedate.svg?branch=master)](https://travis-ci.org/francisbergin/duedate)
 
 ## about
-`duedate` is a simple web front end to the Google Tasks API built with Angular and Bootstrap. It runs entirely in the browser and the latest version lives at [https://fbergin.github.io/duedate/](https://fbergin.github.io/duedate/).
+`duedate` is a simple web front end to the Google Tasks API built with Angular and Bootstrap. It runs entirely in the browser and the latest version lives at https://francisbergin.github.io/duedate/.
 
 ## notable features
 * view _all_ task list
@@ -17,6 +17,6 @@ To use the app, simply visit the website, log in to Google and accept the app's 
 
 ## development
     
-    $ git clone https://github.com/fbergin/duedate.git
+    $ git clone https://github.com/francisbergin/duedate.git
     $ npm install
     $ npm run serve

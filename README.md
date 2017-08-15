@@ -16,7 +16,7 @@
 To use the app, simply visit the website, log in to Google and accept the app's permissions to read and write your Google Tasks. From there, you can use the front end to manage your tasks.
 
 ## development
-    
+
     $ git clone https://github.com/francisbergin/duedate.git
     $ npm install
     $ npm run serve

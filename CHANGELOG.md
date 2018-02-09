@@ -1,5 +1,9 @@
 # duedate changelog
 
+## Next release
+### Added
+- Open Graph image and metadata in HTML head
+
 ## 0.5.2 (2017-07-21)
 ### Changed
 - Minor things in index HTML file

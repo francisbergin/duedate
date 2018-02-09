@@ -1,6 +1,6 @@
 # duedate changelog
 
-## Next release
+## 0.5.3 (2018-02-09)
 ### Added
 - Open Graph image and metadata in HTML head
 

@@ -1,4 +1,4 @@
-# duedate [![Build Status](https://travis-ci.org/francisbergin/duedate.svg?branch=master)](https://travis-ci.org/francisbergin/duedate)
+# duedate [![Build Status](https://travis-ci.com/francisbergin/duedate.svg?branch=master)](https://travis-ci.com/francisbergin/duedate)
 
 ## about
 `duedate` is a simple web front end to the Google Tasks API built with Angular and Bootstrap. It runs entirely in the browser and the latest version lives at https://francisbergin.github.io/duedate/.

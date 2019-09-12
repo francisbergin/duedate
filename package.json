@@ -8,13 +8,13 @@
   "devDependencies": {
     "bower": "^1.8.8",
     "clean-css-cli": "^4.3.0",
-    "csslint": "^1.0.1",
+    "csslint": "^1.0.5",
     "gh-pages": "^0.11.0",
     "html-minifier": "^3.0.1",
     "http-server": "^0.11.1",
     "jshint": "^2.10.2",
     "onchange": "^6.1.0",
-    "uglify-js": "^2.7.0"
+    "uglify-js": "^2.8.29"
   },
   "scripts": {
     "clean": "rm -rf dist",

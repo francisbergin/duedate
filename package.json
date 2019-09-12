@@ -9,12 +9,12 @@
     "bower": "^1.8.8",
     "clean-css-cli": "^4.3.0",
     "csslint": "^1.0.5",
-    "gh-pages": "^0.11.0",
-    "html-minifier": "^3.0.1",
+    "gh-pages": "^2.1.1",
+    "html-minifier": "^4.0.0",
     "http-server": "^0.11.1",
     "jshint": "^2.10.2",
     "onchange": "^6.1.0",
-    "uglify-js": "^2.8.29"
+    "uglify-js": "^3.6.0"
   },
   "scripts": {
     "clean": "rm -rf dist",

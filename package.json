@@ -38,7 +38,7 @@
     "css:minify": "cleancss -o dist/duedate.min.css src/css/*",
     "js": "npm run js:lint && npm run js:minify",
     "js:lint": "jshint src/js/*",
-    "js:minify": "uglifyjs src/js/* -o dist/duedate.min.js"
+    "js:minify": "uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js bower_components/moment/min/moment.min.js bower_components/angular/angular.min.js src/js/* -o dist/duedate.min.js"
   },
   "license": "MIT"
 }

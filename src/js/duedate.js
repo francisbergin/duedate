@@ -1,3 +1,10 @@
+/**
+ * duedate
+ * Front end to Google Tasks API
+ *
+ * (c) 2016-2019 Francis Bergin
+ */
+
 var duedateApp = angular.module('duedateApp', []);
 
 var init = function() {
